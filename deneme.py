@@ -109,4 +109,5 @@ except FloatingPointError:
 except:
     print("fdfd")
 raise Exception("Hata oldu")
+print("işlem bitti")
     

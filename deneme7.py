@@ -3,7 +3,6 @@ import pandas as pd
 import seaborn as sns
 path='C:/Users/user/Desktop/vedat/titanic.csv'
 df =pd.read_csv(path)
-print("Veri analizi")
 print(df.Age)
 print(df.info())
 print(df.dtypes)

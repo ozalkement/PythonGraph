@@ -1,0 +1,4 @@
+#!/bin/bash
+cvlc --logo-file ball.png --logo-x=1140 --logo-y=20 rtsp://admin:Mehmet9565@192.168.1.64 
+--sout "#transcode{vcodec=h264,vb=512,fps=30,acodec=none,sfilter=logo}
+:std{access=file,dst=/var/www/html/videos/$(date +%Y%m%d%H)0001.mp4}" --run-time=3400 vlc://quit 

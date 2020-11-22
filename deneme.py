@@ -3,3 +3,4 @@ import pandas as pd
 import matplotlib.oyplot as plt
 import seaborn as sb
 print("Branch için bazı değişiklikler yapıldı")
+print("Deneme sayfası Tekrar değiştirildi")
